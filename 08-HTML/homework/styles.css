@@ -1,0 +1,36 @@
+body {
+    background-image: url(https://webunwto.s3.eu-west-1.amazonaws.com/2021-05/unwto-opens-call-for-best-tourism-villages.jpg?QUl2_d9rtNzS1rrZtAzueD85hbr0aiqV);
+}
+
+.divClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+img {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: burlywood;
+    padding: 50px;
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
