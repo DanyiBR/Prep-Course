@@ -1,0 +1,67 @@
+#InfoPersonal {
+    width: 400px;
+    height: 1090px;
+    background-color: gray;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#Foto {
+    height: 210px;
+    width: 210px;
+    background:black;
+    border-radius:105px;
+    margin-top: 50px;
+    margin-left: 50px;
+    /*Para centrar los elementos en la pagina uso este código*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 100px;
+}
+
+.MisDatos {
+    width: 380px;
+    background-color: skyblue;
+    margin-left: 10px;
+    /*Para centrar los elementos en la pagina uso este código*/
+    align-items: center;
+    justify-content: center;
+}
+
+#Contenido {
+    margin-left: 400px;
+    background-color: whitesmoke;
+    border: solid 1px;
+    position: absolute;
+    /*display: flex;*/
+    top: 0;
+    right: 0;
+}
+
+.Detalles {
+    align-self: center;
+    margin: 10px;
+    background-color: goldenrod;
+}
+
+li {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    display: block;
+    align-items: center;
+    justify-content: center
+}
