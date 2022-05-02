@@ -1,25 +1,26 @@
 #InfoPersonal {
     width: 400px;
-    height: 1090px;
+    height: 647px;
     background-color: gray;
-    float: left;
-    position: absolute;
+    border: solid 1px black;
+    position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-}
-
-#Foto {
-    height: 210px;
-    width: 210px;
-    background:black;
-    border-radius:105px;
-    margin-top: 50px;
-    margin-left: 50px;
-    /*Para centrar los elementos en la pagina uso este código*/
+    /*flex-direction elige como el navegador interpreta la grilla, por defecto es row (fila), es decir,
+    flex-direction: row (default);  
+    justify-content de izquierda a derecha (fila) y align-items de arriba hacia abajo (columna).
+    De modo que si pongo alguno de estos valores cambiamos el orden de la grilla, así: 
+    flex-direction: column;  
+    jutify-content aplicará de arriba hacia abajo y align-items aplicará de izquierda a derecha.
+    flex-direction: row-reverse;
+    jutify-content aplicará de derecha a izquierda(fila) y align-items(columna) aplicará de arriba hacia abajo.
+    flex-direction: column-reverse;  
+    jutify-content aplicará de izquierda a derecha y align-items aplicará de abajo hacia arriba.*/
+    flex-direction: column;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 img {
@@ -27,15 +28,12 @@ img {
     width: 200px;
     position: relative;
     border-radius: 100px;
+    border: solid 2px black;
 }
 
 .MisDatos {
     width: 380px;
-    background-color: skyblue;
-    margin-left: 10px;
-    /*Para centrar los elementos en la pagina uso este código*/
-    align-items: center;
-    justify-content: center;
+    margin-top: 20px;
 }
 
 #Contenido {
@@ -51,17 +49,18 @@ img {
 .Detalles {
     align-self: center;
     margin: 10px;
-    background-color: goldenrod;
 }
 
 li {
     display: block;
     align-items: center;
     justify-content: center;
+    text-align: left;
 }
 
 span {
     display: block;
+    text-align: justify;
     align-items: center;
     justify-content: center
 }

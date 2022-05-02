@@ -7,32 +7,59 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+    text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos {
+    display: none;
+}
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
+#ejercicioTres {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
 
-
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-
-
+#ejercicioCinco {
+    /*Con display: flex activamos la grilla imaginaria con columnas que van de izquierda a derecha y filas 
+    que van de arriba hacia abajo*/
+    display: flex;
+    /*Indicamos donde queremos que esten los elementos. Con jutify-content aplicamos el 
+    movimiento de izquierda a derecha (fila) y align-items lo hará de arriba a abajo (columna).
+    Podemos usar estos valores: center, flex-star, flex-end, space-between y space-around. */
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
 
 /* Ejercicio 6. */
+
+/* Solucion rompecabezas de ejercicio final en Flexbox Froggy
+flex-wrap: wrap-reverse;
+flex-direction: column-reverse;
+align-content: space-between;
+justify-content: center;
+*/
